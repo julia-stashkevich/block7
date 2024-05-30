@@ -1,5 +1,5 @@
 var activeSwipers = []
-
+//Функция создает свайпер
 export function createSwiper(swiperBlock) {
   if (window.innerWidth < 768) {
     const newSwiper = new Swiper(swiperBlock, {
@@ -29,7 +29,7 @@ export function createSwiper(swiperBlock) {
     return newSwiper
   }
 }
-
+//Функция убирает свайпер на ширине экрана >= 768px
 export function destroySwiper() {
   if (window.innerWidth >= 768) {
     var swipers = document.querySelectorAll('.swiper')

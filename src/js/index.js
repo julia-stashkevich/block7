@@ -1,6 +1,6 @@
 import Swiper from 'swiper'
 import '../scss/style.scss'
-
+import { overlayClick } from './overlayClick.js'
 import {
   showPopupBurger,
   hidePopupBurger,
@@ -32,7 +32,12 @@ import { tableContainerShowAndHide } from './table-container functions.js'
 import { scrollButtonsBlocks } from './scrolls-buttons-blocks.js'
 import { destroySwiper, createSwiper } from './swiper.js'
 
+//Overlay
+
+document.addEventListener('click', overlayClick)
+
 // Burger
+
 var burgerButton = document.querySelector('.header-block__burger-icon')
 var xButton = document.querySelector('.burger__x-icon')
 burgerButton.addEventListener('click', showPopupBurger)
@@ -43,12 +48,14 @@ callBurgerButton.addEventListener('click', transitionCall)
 connectBurgerButton.addEventListener('click', transitionConnect)
 
 //Call-popup
+
 var callButton = document.querySelector('.header-block__call-icon ')
 var xButtonCall = document.querySelector('.popup__call--x-icon')
 callButton.addEventListener('click', showPopupCall)
 xButtonCall.addEventListener('click', hidePopupCall)
 
 //Connect-popup
+
 var connectButton = document.querySelector('.header-block__chat-icon')
 var xButtonConnect = document.querySelector('.popup__connect--x-icon')
 connectButton.addEventListener('click', showPopupConnect)

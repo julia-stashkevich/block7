@@ -4,8 +4,8 @@ var xButtonCall = document.querySelector('.popup__call--x-icon')
 var callPopup = document.querySelector('.popup__call')
 var body = document.querySelector('body')
 
+//Функция показывает попап по клику call
 export function showPopupCall() {
-  console.log('я запустился')
   callButton.addEventListener('click', function () {
     overlayPopup.style.display = 'block'
     callPopup.style.display = 'flex'
@@ -13,6 +13,7 @@ export function showPopupCall() {
   })
 }
 
+//Функция скрывает попап по клику X
 export function hidePopupCall() {
   xButtonCall.addEventListener('click', function () {
     overlayPopup.style.display = 'none'

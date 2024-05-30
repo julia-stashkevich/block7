@@ -27,6 +27,9 @@
       border-color: $design-color-blue;
       background-color: $background-color-white;
       cursor: pointer;
+      border-radius: 6px;
+      border: 2px solid $design-color-blue;
+      opacity: 1 !important;
     }
   }
 }

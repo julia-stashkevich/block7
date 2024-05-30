@@ -8,6 +8,7 @@ var connectBurgerButton = document.querySelector('.burger__chat-icon ')
 var callButton = document.querySelector('.header-block__call-icon ')
 var connectButton = document.querySelector('.header-block__chat-icon')
 
+//Функция изменяет позицию попап при окне >1366px
 export function burgerPosition() {
   if (window.innerWidth >= 1366) {
     overlayBurger.style.display = 'none'
@@ -18,6 +19,7 @@ export function burgerPosition() {
   }
 }
 
+//Функция показывает попап по клику
 export function showPopupBurger() {
   burgerButton.addEventListener('click', function () {
     overlayBurger.style.display = 'block'
@@ -26,6 +28,7 @@ export function showPopupBurger() {
   })
 }
 
+//Функция настраивает кнопку X в бургере
 export function hidePopupBurger() {
   xButton.addEventListener('click', function () {
     if (window.innerWidth >= 1366) {
@@ -40,12 +43,15 @@ export function hidePopupBurger() {
   })
 }
 
+//Функция вызывает переход при клике на кнопку call
 export function transitionCall() {
   callBurgerButton.addEventListener('click', function () {
     xButton.click()
     callButton.click()
   })
 }
+
+//Функция вызывает переход при клике на кнопку connect
 export function transitionConnect() {
   connectBurgerButton.addEventListener('click', function () {
     xButton.click()

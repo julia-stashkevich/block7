@@ -4,6 +4,7 @@ var xButtonConnect = document.querySelector('.popup__connect--x-icon')
 var connectPopup = document.querySelector('.popup__connection')
 var body = document.querySelector('body')
 
+//Функция показывает попап по клику connect
 export function showPopupConnect() {
   connectButton.addEventListener('click', function () {
     overlayPopup.style.display = 'block'
@@ -11,7 +12,7 @@ export function showPopupConnect() {
     body.classList.add('overflowBlocked')
   })
 }
-
+//Функция скрывает попап по клику X
 export function hidePopupConnect() {
   xButtonConnect.addEventListener('click', function () {
     overlayPopup.style.display = 'none'
