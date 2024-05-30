@@ -1,0 +1,38 @@
+.footer-block {
+  border-top: 1px solid $design-color-blue;
+  @include text(14px, 16px, $text-color-grey);
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: $font-family-medium;
+  padding-top: $spacing-16;
+  gap: $spacing-8;
+
+  @include margins-l-r-t-b($spacing-16, $spacing-16, $spacing-40, $spacing-16);
+
+  @media (min-width: $screen-size-768) {
+    padding-top: $spacing-24;
+    height: 81px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    @include margins-l-r-t-b(
+      $spacing-24,
+      $spacing-24,
+      $spacing-48,
+      $spacing-24
+    );
+  }
+  @media (min-width: $screen-size-1366) {
+    padding-top: $spacing-32;
+    @include margins-l-r-t-b(
+      $spacing-32,
+      $spacing-32,
+      $spacing-48,
+      $spacing-24
+    );
+  }
+}

@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+.overflowBlocked {
+  overflow: hidden !important;
+}
+.rotated {
+  transform: rotate(180deg);
+}
+.hidden-position {
+  position: absolute;
+  left: -9999px;
+}

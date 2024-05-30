@@ -1,0 +1,109 @@
+.main-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  background-color: $background-color-grey;
+
+  &__positioning-block-fullscreen {
+    @media (min-width: $screen-size-1366) {
+      position: relative;
+      width: calc(100vw - 320px);
+      max-width: calc(1440px - 320px);
+      left: 320px;
+    }
+  }
+
+  &__title-line {
+    @include margins-l-r-t-b(0px, 0px, $spacing-24, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b(0px, 0px, $spacing-32, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b(0px, $spacing-24, $spacing-40, 0px);
+    }
+  }
+
+  &__slider-menu-block {
+    @include margins-l-r-t-b($spacing-16, 0px, $spacing-24, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, 0px, $spacing-32, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-24, $spacing-8, 0px);
+    }
+  }
+
+  &__repair-block {
+    @include margins-l-r-t-b(0px, 0px, $spacing-24, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b(0px, 0px, $spacing-32, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b(0px, 0px, $spacing-48, 0px);
+    }
+  }
+
+  &__main-information-block {
+    @include margins-l-r-t-b($spacing-16, 0px, $spacing-24, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, $spacing-16, $spacing-32, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-48, $spacing-16, 0px);
+    }
+  }
+
+  &__menu-buttons {
+    @include margins-l-r-t-b($spacing-16, 0px, $spacing-16, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, $spacing-24, $spacing-24, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-32, $spacing-24, 0px);
+    }
+  }
+
+  &__table-container {
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, $spacing-24, $spacing-32, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-32, $spacing-32, 0px);
+    }
+  }
+
+  &__сommercial-offer {
+    @include margins-l-r-t-b($spacing-16, $spacing-16, $spacing-16, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, $spacing-24, $spacing-24, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-32, $spacing-32, 0px);
+    }
+  }
+
+  &__footer-info {
+    @include margins-l-r-t-b($spacing-16, $spacing-16, $spacing-16, 0px);
+
+    @media (min-width: $screen-size-768) {
+      @include margins-l-r-t-b($spacing-24, $spacing-24, $spacing-24, 0px);
+    }
+    @media (min-width: $screen-size-1366) {
+      @include margins-l-r-t-b($spacing-32, $spacing-32, $spacing-32, 0px);
+    }
+  }
+  &__card {
+    gap: $spacing-16;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    flex-wrap: nowrap;
+    @include margins-l-r-t-b($spacing-16, $spacing-16, $spacing-16, 0px);
+  }
+}

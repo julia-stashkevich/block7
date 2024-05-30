@@ -1,0 +1,46 @@
+$screen-size-320: 320px;
+$screen-size-768: 768px;
+$screen-size-1366: 1366px;
+$screen-size-1440: 1440px;
+
+$spacing-8: 8px;
+$spacing-16: 16px;
+$spacing-24: 24px;
+$spacing-32: 32px;
+$spacing-40: 40px;
+$spacing-48: 48px;
+
+$font-family-regular: 'TT Lakes Regular';
+$font-family-medium: 'TT Lakes Medium';
+$font-family-bold: 'TT Lakes Bold';
+
+$text-color-black: #1b1c21;
+$text-color-grey: #7e7e82;
+$text-color-light-grey: rgba(181, 182, 188, 0.9);
+
+$background-color-grey: #f8f8f8;
+$background-color-white: #ffffff;
+$background-color-none: rgba(0, 0, 0, 0);
+
+$design-color-pink: #ff3e79;
+$design-color-blue: #d9fff5;
+
+$shadow-color: rgba(0, 0, 0, 0.2);
+
+$linear-gradient-color: linear-gradient(
+  to right,
+  $background-color-grey,
+  $background-color-white
+);
+
+$linear-gradient-color-white: linear-gradient(
+  to right,
+  $background-color-none,
+  $background-color-white
+);
+
+$z-index-1: 10;
+$z-index-2: 20;
+$z-index-3: 30;
+
+$radius-6: 6px;

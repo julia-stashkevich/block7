@@ -1,0 +1,10 @@
+.swiper {
+  &-pagination-bullet-active {
+    background: $text-color-grey;
+  }
+  &-pagination {
+    position: relative;
+    transform: translateY(20px);
+    height: 30px;
+  }
+}

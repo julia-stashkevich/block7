@@ -1,0 +1,17 @@
+.commercial-offer {
+  font-family: $font-family-regular;
+  @include text(14px, 20px, $text-color-black);
+
+  &__button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: $font-family-medium;
+    @include text(16px, 24px, $text-color-black);
+    text-align: left;
+    background-color: $background-color-grey;
+    border: 0;
+    cursor: pointer;
+    margin-left: -6px;
+  }
+}

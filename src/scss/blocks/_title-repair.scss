@@ -1,0 +1,20 @@
+.title-repair {
+  font-family: $font-family-regular;
+  @include text(16px, 24px, $text-color-grey);
+  height: 56px;
+  border-top: 1px solid $design-color-blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+  background: $linear-gradient-color;
+  overflow: auto;
+  padding-left: $spacing-16;
+
+  @media (min-width: $screen-size-768) {
+    padding-left: $spacing-24;
+  }
+  @media (min-width: $screen-size-1366) {
+    padding-left: $spacing-32;
+  }
+}

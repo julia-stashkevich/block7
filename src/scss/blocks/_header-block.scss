@@ -1,0 +1,55 @@
+.header-block {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color-white;
+  border-bottom: 1px solid $design-color-blue;
+
+  @media (min-width: $screen-size-1366) {
+    display: none;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87px;
+  }
+
+  &__leftblock {
+    display: flex;
+    gap: $spacing-16;
+    align-items: center;
+    margin-left: $spacing-16;
+
+    @media (min-width: $screen-size-768) {
+      margin-left: $spacing-24;
+    }
+  }
+
+  &__rightblock {
+    display: flex;
+    gap: $spacing-16;
+    align-items: center;
+    margin-right: $spacing-16;
+
+    @media (min-width: $screen-size-768) {
+      margin-right: $spacing-24;
+    }
+  }
+
+  &__chat-icon,
+  &__call-icon,
+  &__profile-icon,
+  &__divider-icon {
+    display: none;
+
+    @media (min-width: $screen-size-768) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.burger-icon {
+  @include icon(url('../img/icons/burger.png'));
+}
+.divider-icon {
+  @include icon(url('../img/icons/divider.png'), 2px, 32px);
+}
+.x-icon {
+  @include icon(url('../img/icons/x.png'), 40px, 40px);
+}
+.search-icon {
+  @include icon(url('../img/icons/search.png'));
+}
+.cps-icon {
+  @include icon(url('../img/icons/cps.png'), 97px, 51px);
+}
+.call-icon {
+  @include icon(url('../img/icons/call.png'));
+}
+.chat-icon {
+  @include icon(url('../img/icons/chat.png'));
+}
+.profile-icon {
+  @include icon(url('../img/icons/profile.png'));
+}
+.repair-icon {
+  @include icon(url('../img/icons/repair.png'));
+}
+.highlight-icon {
+  @include icon(url('../img/icons/highlight.png'), 4px, 40px);
+}
+.checkstatus-icon {
+  @include icon(url('../img/icons/checkstatus.png'));
+}
+.go-icon {
+  @include icon(url('../img/icons/go.png'));
+}
+.expand-icon {
+  @include icon(url('../img/icons/expand.png'), 24px, 24px);
+}
+.more-icon {
+  @include icon(url('../img/icons/more.png'), 24px, 24px);
+}
+.lenovo-logo {
+  @include icon(url('../img/icons/lenovo.png'), 108px, 32px);
+}
+.samsung-logo {
+  @include icon(url('../img/icons/samsung.png'), 116px, 38.52px);
+}
+.apple-logo {
+  @include icon(url('../img/icons/apple.png'), 44px, 44px);
+}
+.acer-logo {
+  @include icon(url('../img/icons/acer.png'), 94px, 24px);
+}
+.hp-logo {
+  @include icon(url('../img/icons/hp.png'), 52px, 52px);
+}
+.bosch-logo {
+  @include icon(url('../img/icons/bosch.png'), 128px, 29px);
+}
+.viewsonic-logo {
+  @include icon(url('../img/icons/viewsonic.png'), 128px, 21px);
+}
+.sony-logo {
+  @include icon(url('../img/icons/sony.png'), 128px, 26px);
+}
+.button-buy {
+  @include icon(url('../img/icons/buy.png'), 119px, 32px);
+}
+.button-send {
+  @include icon(url('../img/icons/send.png'), 136px, 32px);
+}

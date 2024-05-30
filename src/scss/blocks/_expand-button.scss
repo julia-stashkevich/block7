@@ -1,0 +1,11 @@
+.expand-button {
+  font-family: $font-family-regular;
+  @include text(16px, 24px, $text-color-black);
+  text-align: left;
+  background-color: $background-color-grey;
+  border: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}

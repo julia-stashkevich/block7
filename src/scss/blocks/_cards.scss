@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 260px;
+  height: 200px;
+  background-color: $background-color-white;
+  border: 1px solid $background-color-white;
+  border-radius: $radius-6;
+  padding: $spacing-16;
+
+  @media (min-width: $screen-size-768) {
+    display: none;
+  }
+  @media (min-width: $screen-size-1366) {
+    display: none;
+  }
+
+  &__title {
+    @include text(14px, 16px, $text-color-grey);
+    font-family: $font-family-medium;
+    &--title-1::after {
+      content: 'Ремонтные услуги';
+    }
+    &--title-2::after {
+      content: 'Цена';
+    }
+    &--title-3::after {
+      content: 'Срок';
+    }
+  }
+  &__row {
+    @include text(14px, 18px, $text-color-black);
+    font-family: $font-family-regular;
+    &--row-2::after {
+      content: '1 000 ₽';
+    }
+    &--row-3:after {
+      content: '30-120 мин';
+    }
+  }
+  &__button-buy {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+}

@@ -1,0 +1,150 @@
+.burger {
+  display: none;
+  width: 320px;
+  height: 100vh;
+  overflow-y: hidden;
+  position: absolute;
+  z-index: $z-index-3;
+  top: 0%;
+  left: 0%;
+  background-color: $background-color-white;
+  opacity: 1;
+  box-shadow: 20px 0px 30px $shadow-color;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: $font-family-medium;
+
+  @media (min-width: $screen-size-1366) {
+    z-index: 0;
+    box-shadow: none;
+    height: 100%;
+    overflow-y: visible;
+    justify-content: flex-start;
+  }
+
+  button {
+    padding: 0px;
+    margin: 0px;
+    background-color: $background-color-white;
+  }
+
+  button:hover {
+    opacity: 0.5;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    height: $spacing-32;
+    padding-left: $spacing-24;
+  }
+
+  &__top {
+    padding: 0px;
+    margin: 0px;
+    margin-left: $spacing-24;
+    margin-right: $spacing-24;
+    margin-top: $spacing-24;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__header--left-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: $spacing-16;
+  }
+
+  &__header--right-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    padding: 0px;
+    margin-left: -$spacing-24;
+    margin-top: $spacing-24;
+    @media (min-width: $screen-size-768) {
+      margin-top: $spacing-40;
+    }
+  }
+
+  &__nav li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: $font-family-medium;
+    font-size: $spacing-16;
+    list-style: none;
+    margin-bottom: $spacing-24;
+    color: rgba(27, 28, 33, 1);
+    height: $spacing-24;
+
+    @media (min-width: $screen-size-768) {
+      height: $spacing-32;
+    }
+  }
+
+  &__bottom {
+    margin-left: $spacing-24;
+    margin-right: $spacing-24;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: $spacing-16;
+    gap: $spacing-16;
+  }
+
+  &__mail {
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color-black;
+    margin-bottom: $spacing-16;
+  }
+
+  &__phone {
+    font-size: 24px;
+    color: $text-color-black;
+    line-height: 32px;
+    margin-bottom: $spacing-40;
+    font-family: $font-family-bold;
+  }
+
+  &__lang {
+    display: flex;
+    gap: $spacing-8;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: $font-family-medium;
+    color: $text-color-black;
+    margin-bottom: $spacing-32;
+  }
+  &__x-icon {
+    @media (min-width: $screen-size-1366) {
+      display: none;
+    }
+  }
+}

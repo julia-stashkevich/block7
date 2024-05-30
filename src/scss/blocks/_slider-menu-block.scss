@@ -1,0 +1,32 @@
+.slider-menu-block {
+  overflow: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: $spacing-16;
+
+  @media (min-width: $screen-size-1366) {
+    flex-flow: row wrap;
+  }
+
+  & > button {
+    font-family: $font-family-regular;
+    @include text(16px, 200%, $text-color-grey);
+    background-color: $background-color-grey;
+    border-color: $background-color-grey;
+    border-style: solid;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: $design-color-blue;
+      background-color: $background-color-white;
+      cursor: pointer;
+    }
+  }
+}

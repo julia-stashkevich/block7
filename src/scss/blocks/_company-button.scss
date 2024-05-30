@@ -1,0 +1,40 @@
+.company-button {
+  display: flex;
+  flex-shrink: 0;
+  width: 240px;
+  height: 72px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-16;
+  margin: 0px;
+  background-color: $background-color-white;
+  border: $background-color-grey 1px solid;
+  border-radius: 6px;
+
+  @media (min-width: $screen-size-768) {
+    width: 224px;
+  }
+  @media (min-width: $screen-size-1366) {
+    width: 240px;
+  }
+
+  &--big {
+    height: 160px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    &__icon {
+      align-self: flex-end;
+    }
+
+    &__text {
+      font-family: $font-family-medium;
+      @include text(16px, 24px, $text-color-black);
+      align-self: flex-start;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.title-line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  &__leftblock {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__title {
+    font-family: $font-family-bold;
+    @include text(28px, 40px, $text-color-black);
+    text-align: left;
+    margin-left: $spacing-16;
+
+    @media (min-width: $screen-size-768) {
+      margin-left: $spacing-24;
+    }
+    @media (min-width: $screen-size-1366) {
+      margin-left: $spacing-32;
+    }
+  }
+
+  &__rightblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: $spacing-24;
+    gap: $spacing-32;
+    display: none;
+
+    @media (min-width: $screen-size-1366) {
+      display: flex;
+    }
+  }
+
+  &__repair,
+  &__checkstatus {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: $spacing-8;
+    font-family: $font-family-medium;
+    @include text(16px, 24px, $text-color-black);
+  }
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}

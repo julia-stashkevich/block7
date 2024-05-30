@@ -1,0 +1,13 @@
+.repair-block {
+  overflow-x: hidden;
+  background-color: $background-color-grey;
+  min-height: 0;
+
+  &__expand-button {
+    @include margins-l-r-t-b($spacing-16, 0px, $spacing-24, 0px);
+    padding-left: $spacing-8;
+
+    @media (min-width: $screen-size-768) {
+    }
+  }
+}

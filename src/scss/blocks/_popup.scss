@@ -1,0 +1,127 @@
+.popup {
+  width: 320px;
+  height: 100%;
+  position: absolute;
+  z-index: $z-index-3;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
+  input::placeholder {
+    padding-left: $spacing-8;
+  }
+
+  @media (min-width: $screen-size-768) {
+    flex-direction: row;
+    width: 513px;
+    height: 100vh;
+  }
+
+  &__call--x-icon,
+  &__connect--x-icon {
+    padding-top: $spacing-24;
+    background-color: $background-color-white;
+    @media (min-width: $screen-size-768) {
+      border-right: 1px solid $design-color-blue;
+      width: 73px;
+      opacity: 1;
+      background-color: $background-color-none;
+      padding-top: $spacing-32;
+    }
+  }
+
+  &__body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: $spacing-24;
+    background-color: $background-color-white;
+
+    @media (min-width: $screen-size-768) {
+      box-shadow: -20px 0px 30px $shadow-color;
+      padding-top: $spacing-32;
+      width: 440px;
+      background-color: $background-color-white;
+    }
+  }
+
+  &__header {
+    @include text(24px, 32px, $text-color-black);
+    font-family: $font-family-bold;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: $spacing-16;
+    @media (min-width: $screen-size-768) {
+      gap: $spacing-24;
+    }
+  }
+  &__main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: $spacing-24;
+    gap: $spacing-8;
+    padding-left: $spacing-16;
+    @media (min-width: $screen-size-768) {
+      padding-left: $spacing-32;
+    }
+    input {
+      @include text(16px, 24px, $text-color-light-grey);
+      font-family: $font-family-medium;
+      border-color: $text-color-light-grey;
+      border-style: solid;
+      border-radius: 6px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      width: 288px;
+      height: 48px;
+
+      @media (min-width: $screen-size-768) {
+        width: 376px;
+      }
+    }
+  }
+  &__footer {
+    @include text(14px, 16px, $text-color-grey);
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family-medium;
+    padding-top: $spacing-24;
+    padding-left: $spacing-16;
+    @media (min-width: $screen-size-768) {
+      padding-left: $spacing-32;
+    }
+    p {
+      align-self: flex-start;
+    }
+    p > span {
+      color: $design-color-pink;
+    }
+    button {
+      margin-right: $spacing-16;
+      align-self: flex-end;
+      @media (min-width: $screen-size-768) {
+        margin-right: $spacing-32;
+      }
+    }
+  }
+  &__connection {
+    display: none;
+    input:last-child {
+      height: 118px;
+      margin-top: 0px;
+    }
+    input:last-child::placeholder {
+      transform: translateY(-45px) translateY(50%);
+    }
+  }
+  &__call {
+    display: none;
+  }
+}

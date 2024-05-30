@@ -1,0 +1,24 @@
+.menu-buttons {
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  flex-wrap: nowrap;
+  gap: $spacing-16;
+
+  @media (min-width: $screen-size-768) {
+    &::after {
+      display: none;
+    }
+    row-gap: $spacing-16;
+    column-gap: $spacing-24;
+    flex-wrap: wrap;
+  }
+  @media (min-width: $screen-size-1366) {
+    &::after {
+      display: none;
+    }
+    row-gap: $spacing-16;
+    column-gap: $spacing-32;
+    flex-wrap: wrap;
+  }
+}

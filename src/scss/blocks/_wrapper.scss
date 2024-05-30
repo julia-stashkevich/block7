@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative; //задаю для правильной работы overlayRGBA
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color-grey;
+  min-width: 320px;
+
+  @media (min-width: $screen-size-1366) {
+    margin: 0px auto;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    transition: 0.2s linear;
+  }
+
+  button:hover {
+    opacity: 0.5;
+  }
+
+  a {
+    transition: 0.2s linear;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: $text-color-black;
+  }
+
+  a:hover {
+    color: $text-color-grey;
+    background: left no-repeat url('../img/icons/highlight.png');
+  }
+}
