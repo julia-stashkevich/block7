@@ -1592,12 +1592,6 @@ svg * {
 
 .swiper {
   position: relative; }
-  .swiper-pagination-bullet-active {
-    background: #7e7e82; }
-  .swiper-pagination {
-    position: relative;
-    transform: translateY(20px);
-    height: 30px; }
   .swiper::after {
     content: '';
     position: absolute;
@@ -1607,6 +1601,15 @@ svg * {
     top: 0;
     right: 0;
     bottom: 0; }
+  @media (min-width: 768px) {
+    .swiper::after {
+      display: none; } }
+  .swiper-pagination-bullet-active {
+    background: #7e7e82; }
+  .swiper-pagination {
+    position: relative;
+    transform: translateY(20px);
+    height: 30px; }
 
 .table-repair {
   min-width: 720px;
