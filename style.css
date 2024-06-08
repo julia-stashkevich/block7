@@ -66,270 +66,6 @@ svg * {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
 
-.burger-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/burger.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.divider-icon {
-  border: none;
-  width: 2px;
-  height: 32px;
-  background-image: url(./static/divider.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.x-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.search-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/search.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.cps-icon {
-  border: none;
-  width: 97px;
-  height: 51px;
-  background-image: url(./static/cps.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.call-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/call.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.chat-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/chat.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.profile-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/profile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.repair-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/repair.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.highlight-icon {
-  border: none;
-  width: 4px;
-  height: 40px;
-  background-image: url(./static/highlight.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.checkstatus-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/checkstatus.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.go-icon {
-  border: none;
-  width: 40px;
-  height: 40px;
-  background-image: url(./static/go.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.expand-icon {
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-image: url(./static/expand.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.more-icon {
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-image: url(./static/more.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.lenovo-logo {
-  border: none;
-  width: 108px;
-  height: 32px;
-  background-image: url(./static/lenovo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.samsung-logo {
-  border: none;
-  width: 116px;
-  height: 38.52px;
-  background-image: url(./static/samsung.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.apple-logo {
-  border: none;
-  width: 44px;
-  height: 44px;
-  background-image: url(./static/apple.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.acer-logo {
-  border: none;
-  width: 94px;
-  height: 24px;
-  background-image: url(./static/acer.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.hp-logo {
-  border: none;
-  width: 52px;
-  height: 52px;
-  background-image: url(./static/hp.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.bosch-logo {
-  border: none;
-  width: 128px;
-  height: 29px;
-  background-image: url(./static/bosch.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.viewsonic-logo {
-  border: none;
-  width: 128px;
-  height: 21px;
-  background-image: url(./static/viewsonic.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.sony-logo {
-  border: none;
-  width: 128px;
-  height: 26px;
-  background-image: url(./static/sony.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.button-buy {
-  border: none;
-  width: 119px;
-  height: 32px;
-  background-image: url(./static/buy.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
-.button-send {
-  border: none;
-  width: 136px;
-  height: 32px;
-  background-image: url(./static/send.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  color: #ffffff;
-  text-align: center; }
-
 @font-face {
   font-family: 'TT Lakes Regular';
   src: url(./Fonts/TTLakes-Regular.ttf) format("truetype");
@@ -351,9 +87,6 @@ svg * {
 .hidden {
   display: none; }
 
-.overflowBlocked {
-  overflow: hidden !important; }
-
 .rotated {
   transform: rotate(180deg); }
 
@@ -367,7 +100,7 @@ svg * {
   line-height: 20px;
   color: #1b1c21;
   letter-spacing: -0.2px; }
-  .commercial-offer__button {
+  .commercial-offer button {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -380,7 +113,11 @@ svg * {
     background-color: #f8f8f8;
     border: 0;
     cursor: pointer;
-    margin-left: -6px; }
+    margin-left: -8px; }
+    .commercial-offer button span:last-child {
+      width: 20px;
+      height: 20px;
+      background-image: url(./static/more.png); }
 
 @media (min-width: 1440px) {
   body {
@@ -392,7 +129,7 @@ svg * {
   width: 320px;
   height: 100vh;
   overflow-y: hidden;
-  position: absolute;
+  position: fixed;
   z-index: 30;
   top: 0%;
   left: 0%;
@@ -406,17 +143,12 @@ svg * {
   font-family: "TT Lakes Medium"; }
   @media (min-width: 1366px) {
     .burger {
+      position: absolute;
       z-index: 0;
       box-shadow: none;
       height: 100%;
       overflow-y: visible;
       justify-content: flex-start; } }
-  .burger button {
-    padding: 0px;
-    margin: 0px;
-    background-color: #ffffff; }
-  .burger button:hover {
-    opacity: 0.5; }
   .burger a {
     display: flex;
     flex-direction: row;
@@ -424,20 +156,29 @@ svg * {
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
-    height: 32px;
-    padding-left: 24px; }
+    height: 32px; }
   .burger__top {
     padding: 0px;
     margin: 0px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 24px; }
+    margin-top: 24px;
+    margin-bottom: 0px; }
   .burger__header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center; }
+    .burger__header button {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center; }
   .burger__header--left-block {
     display: flex;
     flex-direction: row;
@@ -445,12 +186,23 @@ svg * {
     justify-content: space-between;
     align-items: center;
     gap: 16px; }
+    .burger__header--left-block :nth-child(1) {
+      background-image: url(./static/x.png); }
+    .burger__header--left-block :nth-child(2) {
+      background-image: url(./static/cps.png);
+      width: 97px;
+      height: 51px; }
   .burger__header--right-block {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center; }
+    .burger__header--right-block :nth-child(1) {
+      background-image: url(./static/search.png); }
+      @media (min-width: 1366px) {
+        .burger__header--right-block :nth-child(1) {
+          display: none; } }
   .burger__nav {
     padding: 0px;
     margin-left: -24px;
@@ -469,10 +221,13 @@ svg * {
     list-style: none;
     margin-bottom: 24px;
     color: #1b1c21;
-    height: 24px; }
+    height: 24px;
+    padding-left: 24px; }
     @media (min-width: 768px) {
       .burger__nav li {
         height: 32px; } }
+    .burger__nav li:hover {
+      background: left no-repeat url(./static/highlight.png); }
   .burger__bottom {
     margin-left: 24px;
     margin-right: 24px; }
@@ -482,6 +237,21 @@ svg * {
     flex-wrap: nowrap;
     padding-bottom: 16px;
     gap: 16px; }
+    .burger__icons button {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center; }
+    .burger__icons button:nth-child(1) {
+      background-image: url(./static/call.png); }
+    .burger__icons button:nth-child(2) {
+      background-image: url(./static/chat.png); }
+    .burger__icons button:nth-child(3) {
+      background-image: url(./static/profile.png); }
   .burger__mail {
     font-size: 16px;
     line-height: 24px;
@@ -501,9 +271,11 @@ svg * {
     font-family: "TT Lakes Medium";
     color: #1b1c21;
     margin-bottom: 32px; }
-  @media (min-width: 1366px) {
-    .burger__x-icon {
-      display: none; } }
+    .burger__lang button {
+      padding: 0px;
+      margin: 0px;
+      background-color: #ffffff;
+      border: none; }
 
 .card {
   display: flex;
@@ -525,6 +297,16 @@ svg * {
   @media (min-width: 1366px) {
     .card {
       display: none; } }
+  .card button {
+    border: none;
+    width: 119px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #ffffff;
+    background-image: url(./static/buy.png);
+    text-align: center; }
   .card__title {
     font-size: 14px;
     line-height: 16px;
@@ -552,40 +334,6 @@ svg * {
     right: 16px;
     bottom: 16px; }
 
-.company-button {
-  display: flex;
-  flex-shrink: 0;
-  width: 240px;
-  height: 72px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
-  margin: 0px;
-  background-color: #ffffff;
-  border: #f8f8f8 1px solid;
-  border-radius: 6px; }
-  @media (min-width: 768px) {
-    .company-button {
-      width: 224px; } }
-  @media (min-width: 1366px) {
-    .company-button {
-      width: 240px; } }
-  .company-button--big {
-    height: 160px;
-    flex-direction: column;
-    align-items: flex-start; }
-    .company-button--big__icon {
-      align-self: flex-end; }
-    .company-button--big__text {
-      font-family: "TT Lakes Medium";
-      font-size: 16px;
-      line-height: 24px;
-      color: #1b1c21;
-      letter-spacing: -0.2px;
-      align-self: flex-start; }
-
 .expand-button {
   font-family: "TT Lakes Regular";
   font-size: 16px;
@@ -599,6 +347,10 @@ svg * {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center; }
+  .expand-button span:first-child {
+    width: 24px;
+    height: 24px;
+    background-image: url(./static/expand.png); }
 
 .footer-block {
   border-top: 1px solid #d9fff5;
@@ -632,6 +384,10 @@ svg * {
       margin-bottom: 24px; } }
   @media (min-width: 1366px) {
     .footer-block {
+      position: relative;
+      width: calc(100vw - 320px);
+      max-width: calc(1366px - 320px);
+      left: 320px;
       padding-top: 32px;
       margin-left: 32px;
       margin-right: 32px;
@@ -648,17 +404,37 @@ svg * {
       display: none; } }
   .header-block button {
     border: none;
-    background-color: transparent; }
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center; }
   .header-block__navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 87px; }
+    min-height: 88px; }
   .header-block__leftblock {
     display: flex;
     gap: 16px;
     align-items: center;
     margin-left: 16px; }
+    .header-block__leftblock button:nth-child(1) {
+      background-image: url(./static/burger.png); }
+    .header-block__leftblock span:nth-child(2) {
+      background-image: url(./static/divider.png);
+      width: 2px;
+      height: 32px;
+      display: none; }
+      @media (min-width: 768px) {
+        .header-block__leftblock span:nth-child(2) {
+          display: block; } }
+    .header-block__leftblock span:nth-child(3) {
+      background-image: url(./static/cps.png);
+      width: 97px;
+      height: 51px; }
     @media (min-width: 768px) {
       .header-block__leftblock {
         margin-left: 24px; } }
@@ -670,11 +446,32 @@ svg * {
     @media (min-width: 768px) {
       .header-block__rightblock {
         margin-right: 24px; } }
-  .header-block__chat-icon, .header-block__call-icon, .header-block__profile-icon, .header-block__divider-icon {
-    display: none; }
-    @media (min-width: 768px) {
-      .header-block__chat-icon, .header-block__call-icon, .header-block__profile-icon, .header-block__divider-icon {
-        display: block; } }
+    .header-block__rightblock button:nth-child(1) {
+      background-image: url(./static/call.png);
+      display: none; }
+      @media (min-width: 768px) {
+        .header-block__rightblock button:nth-child(1) {
+          display: block; } }
+    .header-block__rightblock button:nth-child(2) {
+      background-image: url(./static/chat.png);
+      display: none; }
+      @media (min-width: 768px) {
+        .header-block__rightblock button:nth-child(2) {
+          display: block; } }
+    .header-block__rightblock button:nth-child(3) {
+      background-image: url(./static/profile.png);
+      display: none; }
+      @media (min-width: 768px) {
+        .header-block__rightblock button:nth-child(3) {
+          display: block; } }
+    .header-block__rightblock span:nth-child(4) {
+      background-image: url(./static/divider.png);
+      width: 2px;
+      height: 32px; }
+    .header-block__rightblock button:nth-child(5) {
+      background-image: url(./static/repair.png); }
+    .header-block__rightblock button:nth-child(6) {
+      background-image: url(./static/checkstatus.png); }
 
 .main-block {
   display: flex;
@@ -682,7 +479,7 @@ svg * {
   justify-content: flex-start;
   background-color: #f8f8f8; }
   @media (min-width: 1366px) {
-    .main-block__positioning-block-fullscreen {
+    .main-block__positioning {
       position: relative;
       width: calc(100vw - 320px);
       max-width: calc(1440px - 320px);
@@ -898,6 +695,700 @@ svg * {
       flex-wrap: wrap; }
       .menu-buttons::after {
         display: none; } }
+  .menu-buttons--brands button:nth-child(1) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(1) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(1) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(1) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/lenovo.png); }
+    .menu-buttons--brands button:nth-child(1) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(2) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(2) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(2) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(2) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/acer.png); }
+    .menu-buttons--brands button:nth-child(2) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(3) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(3) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(3) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(3) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/apple.png); }
+    .menu-buttons--brands button:nth-child(3) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(4) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(4) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(4) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(4) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/bosch.png); }
+    .menu-buttons--brands button:nth-child(4) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(5) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(5) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(5) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(5) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/hp.png); }
+    .menu-buttons--brands button:nth-child(5) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(6) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(6) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(6) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(6) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/samsung.png); }
+    .menu-buttons--brands button:nth-child(6) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(7) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(7) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(7) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(7) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/viewSonic.png); }
+    .menu-buttons--brands button:nth-child(7) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(8) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(8) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(8) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(8) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/sony.png); }
+    .menu-buttons--brands button:nth-child(8) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(9) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(9) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(9) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(9) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/lenovo.png); }
+    .menu-buttons--brands button:nth-child(9) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(10) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(10) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(10) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(10) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/acer.png); }
+    .menu-buttons--brands button:nth-child(10) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(11) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(11) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(11) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(11) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/apple.png); }
+    .menu-buttons--brands button:nth-child(11) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(12) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(12) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(12) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(12) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/bosch.png); }
+    .menu-buttons--brands button:nth-child(12) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(13) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(13) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(13) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(13) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/hp.png); }
+    .menu-buttons--brands button:nth-child(13) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(14) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(14) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(14) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(14) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/samsung.png); }
+    .menu-buttons--brands button:nth-child(14) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(15) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(15) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(15) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(15) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/viewSonic.png); }
+    .menu-buttons--brands button:nth-child(15) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--brands button:nth-child(16) {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 72px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--brands button:nth-child(16) {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--brands button:nth-child(16) {
+        width: 240px; } }
+    .menu-buttons--brands button:nth-child(16) span:first-child {
+      border: none;
+      width: 130px;
+      height: 45px;
+      background-position: left;
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/sony.png); }
+    .menu-buttons--brands button:nth-child(16) span:last-child {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png); }
+  .menu-buttons--technics button {
+    display: flex;
+    flex-shrink: 0;
+    width: 240px;
+    height: 160px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: #f8f8f8 1px solid;
+    border-radius: 6px; }
+    @media (min-width: 768px) {
+      .menu-buttons--technics button {
+        width: 224px; } }
+    @media (min-width: 1366px) {
+      .menu-buttons--technics button {
+        width: 240px; } }
+    .menu-buttons--technics button span:nth-child(1) {
+      font-family: "TT Lakes Medium";
+      font-size: 16px;
+      line-height: 24px;
+      color: #1b1c21;
+      letter-spacing: -0.2px;
+      align-self: flex-start; }
+    .menu-buttons--technics button span:nth-child(2) {
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/go.png);
+      align-self: flex-end; }
 
 .overlay {
   position: fixed;
@@ -912,48 +1403,59 @@ svg * {
 
 .popup {
   width: 320px;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  overflow-y: hidden;
+  position: fixed;
   z-index: 30;
   top: 0%;
   right: 0%;
-  display: flex;
+  display: none;
   flex-direction: column;
-  overflow: auto; }
+  overflow: auto;
+  justify-content: right; }
+  @media (min-width: 768px) {
+    .popup {
+      flex-direction: row;
+      width: 513px; } }
+  .popup div:first-child {
+    background-color: white; }
+    @media (min-width: 768px) {
+      .popup div:first-child {
+        background-color: transparent; } }
+    .popup div:first-child button {
+      margin-top: 24px;
+      border: none;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      text-align: center;
+      background-image: url(./static/x.png); }
+      @media (min-width: 768px) {
+        .popup div:first-child button {
+          margin-right: 32px; } }
   .popup input::-moz-placeholder {
     padding-left: 8px; }
   .popup input:-ms-input-placeholder {
     padding-left: 8px; }
   .popup input::placeholder {
     padding-left: 8px; }
-  @media (min-width: 768px) {
-    .popup {
-      flex-direction: row;
-      width: 513px;
-      height: 100vh; } }
-  .popup__call--x-icon, .popup__connect--x-icon {
-    padding-top: 24px;
-    background-color: #ffffff; }
-    @media (min-width: 768px) {
-      .popup__call--x-icon, .popup__connect--x-icon {
-        border-right: 1px solid #d9fff5;
-        width: 73px;
-        opacity: 1;
-        background-color: rgba(0, 0, 0, 0);
-        padding-top: 32px; } }
   .popup__body {
+    padding-top: 32px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 24px;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    border-left: none; }
     @media (min-width: 768px) {
       .popup__body {
         box-shadow: -20px 0px 30px rgba(0, 0, 0, 0.2);
-        padding-top: 32px;
         width: 440px;
-        background-color: #ffffff; } }
+        background-color: #ffffff;
+        border-left: 2px solid #d9fff5; } }
   .popup__header {
     font-size: 24px;
     line-height: 32px;
@@ -969,6 +1471,10 @@ svg * {
     @media (min-width: 768px) {
       .popup__header {
         gap: 24px; } }
+    .popup__header div:nth-child(1) {
+      background-image: url(./static/highlight.png);
+      width: 4px;
+      height: 40px; }
   .popup__main {
     display: flex;
     flex-wrap: wrap;
@@ -992,6 +1498,15 @@ svg * {
       align-items: center;
       width: 288px;
       height: 48px; }
+      .popup__main input:nth-child(4) {
+        height: 118px;
+        margin-top: 0px; }
+      .popup__main input:nth-child(4)::-moz-placeholder {
+        transform: translateY(-45px) translateY(50%); }
+      .popup__main input:nth-child(4):-ms-input-placeholder {
+        transform: translateY(-45px) translateY(50%); }
+      .popup__main input:nth-child(4)::placeholder {
+        transform: translateY(-45px) translateY(50%); }
       @media (min-width: 768px) {
         .popup__main input {
           width: 376px; } }
@@ -1013,24 +1528,23 @@ svg * {
     .popup__footer p > span {
       color: #ff3e79; }
     .popup__footer button {
+      border: none;
+      width: 119px;
+      height: 32px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      color: #ffffff;
+      background-image: url(./static/buy.png);
+      text-align: center;
       margin-right: 16px;
-      align-self: flex-end; }
+      align-self: flex-end;
+      background-image: url(./static/send.png);
+      width: 136px;
+      height: 32px; }
       @media (min-width: 768px) {
         .popup__footer button {
           margin-right: 32px; } }
-  .popup__connection {
-    display: none; }
-    .popup__connection input:last-child {
-      height: 118px;
-      margin-top: 0px; }
-    .popup__connection input:last-child::-moz-placeholder {
-      transform: translateY(-45px) translateY(50%); }
-    .popup__connection input:last-child:-ms-input-placeholder {
-      transform: translateY(-45px) translateY(50%); }
-    .popup__connection input:last-child::placeholder {
-      transform: translateY(-45px) translateY(50%); }
-  .popup__call {
-    display: none; }
 
 .repair-block {
   overflow-x: hidden;
@@ -1044,6 +1558,7 @@ svg * {
     padding-left: 8px; }
 
 .slider-menu-block {
+  box-sizing: border-box;
   overflow: auto;
   display: flex;
   flex-wrap: nowrap;
@@ -1061,28 +1576,37 @@ svg * {
     color: #7e7e82;
     letter-spacing: -0.2px;
     background-color: #f8f8f8;
-    border-color: #f8f8f8;
-    border-style: solid;
-    border-radius: 6px;
+    border: none;
     display: flex;
     text-align: center;
-    display: inline-block;
-    white-space: nowrap; }
+    white-space: nowrap;
+    border: 2px solid #f8f8f8;
+    border-radius: 6px; }
     .slider-menu-block > button:hover {
-      border-color: #d9fff5;
-      background-color: #ffffff;
-      cursor: pointer;
-      border-radius: 6px;
       border: 2px solid #d9fff5;
+      /* изменяем стиль рамки при наведении */
+      background-color: #ffffff;
+      border-radius: 6px;
+      cursor: pointer;
       opacity: 1 !important; }
 
-.swiper-pagination-bullet-active {
-  background: #7e7e82; }
-
-.swiper-pagination {
-  position: relative;
-  transform: translateY(20px);
-  height: 30px; }
+.swiper {
+  position: relative; }
+  .swiper-pagination-bullet-active {
+    background: #7e7e82; }
+  .swiper-pagination {
+    position: relative;
+    transform: translateY(20px);
+    height: 30px; }
+  .swiper::after {
+    content: '';
+    position: absolute;
+    z-index: 30;
+    background: linear-gradient(to right, transparent, white);
+    width: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0; }
 
 .table-repair {
   min-width: 720px;
@@ -1098,6 +1622,16 @@ svg * {
   @media (min-width: 1366px) {
     .table-repair {
       width: 100%; } }
+  .table-repair button {
+    border: none;
+    width: 119px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #ffffff;
+    background-image: url(./static/buy.png);
+    text-align: center; }
   .table-repair tr {
     height: 64px;
     background-color: #ffffff;
@@ -1172,9 +1706,26 @@ svg * {
     line-height: 24px;
     color: #1b1c21;
     letter-spacing: -0.2px; }
-  .title-line button {
+  .title-line__repair button {
     border: none;
-    background-color: transparent; }
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(./static/repair.png); }
+  .title-line__checkstatus button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(./static/checkstatus.png); }
 
 .title-repair {
   font-family: "TT Lakes Regular";
@@ -1210,7 +1761,6 @@ svg * {
       margin: 0px auto; } }
   .wrapper button {
     cursor: pointer;
-    border: none;
     transition: 0.2s linear; }
   .wrapper button:hover {
     opacity: 0.5; }
@@ -1222,8 +1772,7 @@ svg * {
     text-decoration: none;
     color: #1b1c21; }
   .wrapper a:hover {
-    color: #7e7e82;
-    background: left no-repeat url(./static/highlight.png); }
+    color: #7e7e82; }
 
 
 /*# sourceMappingURL=style.css.map*/
