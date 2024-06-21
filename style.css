@@ -127,9 +127,9 @@ svg * {
 .burger {
   display: none;
   width: 320px;
-  height: 100vh;
+  height: 100%;
   overflow-y: hidden;
-  position: fixed;
+  position: absolute;
   z-index: 30;
   top: 0%;
   left: 0%;
@@ -139,7 +139,7 @@ svg * {
   margin: 0px;
   padding: 0px;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-family: "TT Lakes Medium"; }
   @media (min-width: 1366px) {
     .burger {
@@ -147,8 +147,7 @@ svg * {
       z-index: 0;
       box-shadow: none;
       height: 100%;
-      overflow-y: visible;
-      justify-content: flex-start; } }
+      overflow-y: visible; } }
   .burger a {
     display: flex;
     flex-direction: row;
@@ -276,6 +275,13 @@ svg * {
       margin: 0px;
       background-color: #ffffff;
       border: none; }
+
+.buttons {
+  cursor: pointer;
+  transition: 0.2s linear; }
+
+.buttons:hover {
+  opacity: 0.5; }
 
 .card {
   display: flex;
@@ -1403,9 +1409,9 @@ svg * {
 
 .popup {
   width: 320px;
-  height: 100vh;
+  height: 100%;
   overflow-y: hidden;
-  position: fixed;
+  position: absolute;
   z-index: 30;
   top: 0%;
   right: 0%;
@@ -1444,7 +1450,7 @@ svg * {
     padding-left: 8px; }
   .popup__body {
     padding-top: 32px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1762,11 +1768,6 @@ svg * {
   @media (min-width: 1366px) {
     .wrapper {
       margin: 0px auto; } }
-  .wrapper button {
-    cursor: pointer;
-    transition: 0.2s linear; }
-  .wrapper button:hover {
-    opacity: 0.5; }
   .wrapper a {
     transition: 0.2s linear; }
   .wrapper a:link,
