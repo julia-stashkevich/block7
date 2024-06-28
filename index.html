@@ -20,17 +20,17 @@
       <header class="header-block">
         <div class="header-block__navigation">
           <div class="header-block__leftblock">
-            <button class="buttons" id="burger-button"></button>
+            <button class="buttons buttons--burger" id="burger-button"></button>
             <span></span>
             <span></span>
           </div>
           <div class="header-block__rightblock">
-            <button class="buttons" id="header__call-button"></button>
-            <button class="buttons" id="header__connect-button"></button>
-            <button class="buttons"></button>
+            <button class="buttons buttons--call" id="header__call-button"></button>
+            <button class="buttons buttons--connect" id="header__connect-button"></button>
+            <button class="buttons buttons--profile"></button>
             <span></span>
-            <button class="buttons"></button>
-            <button class="buttons"></button>
+            <button class="buttons buttons--repair"></button>
+            <button class="buttons buttons--checkstatus"></button>
           </div>
         </div>
       </header>
@@ -44,11 +44,11 @@
           <div class="burger__top">
             <div class="burger__header">
               <div class="burger__header--left-block">
-                <button class="buttons" id="burger-x"></button>
+                <button class="buttons buttons--x" id="burger-x"></button>
                 <span></span>
               </div>
               <div class="burger__header--right-block">
-                <button class="buttons"></button>
+                <button class="buttons buttons--search"></button>
               </div>
             </div>
             <ul class="burger__nav">
@@ -64,23 +64,23 @@
           </div>
           <div class="burger__bottom">
             <div class="burger__icons">
-              <button class="buttons" id="burger__call-button"></button>
-              <button class="buttons" id="burger__connect-button"></button>
-              <button class="buttons"></button>
+              <button class="buttons buttons--call" id="burger__call-button"></button>
+              <button class="buttons buttons--connect" id="burger__connect-button"></button>
+              <button class="buttons buttons--profile"></button>
             </div>
             <a href="mailto:mail@cps.com" class="burger__mail">mail@cps.com</a>
             <a href="tel:+78008908900" class="burger__phone">8 800 890 8900</a>
             <p class="burger__lang">
-              <button class="buttons">RU</button>
-              <button class="buttons">EN</button>
-              <button class="buttons">CH</button>
+              <button class="buttons buttons--text">RU</button>
+              <button class="buttons buttons--text">EN</button>
+              <button class="buttons buttons--text">CH</button>
             </p>
           </div>
         </div>
 
         <div class="popup" id="popup-connection">
            <div>
-            <button class="buttons" id="popup-connection__x"></button>
+            <button class="buttons buttons--x" id="popup-connection__x"></button>
           </div>
           <div class="popup__body">
           <div class="popup__header">
@@ -95,14 +95,14 @@
           </div>
           <div class="popup__footer">
             <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
-            <button class="buttons"></button>
+            <button class="buttons buttons--send"></button>
           </div>
           </div>
         </div>
 
         <div class="popup" id="popup-call">
           <div>
-            <button class="buttons" id="popup-call__x"></button>
+            <button class="buttons buttons--x" id="popup-call__x"></button>
           </div>
           <div class="popup__body">
           <div class="popup__header">
@@ -114,7 +114,7 @@
           </div>
           <div class="popup__footer">
             <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
-            <button class="buttons"></button>
+            <button class="buttons buttons--send"></button>
           </div>
           </div>
         </div>
@@ -129,29 +129,29 @@
           <div class="title-line__rightblock">
             <label class="title-line__repair">
               Оставить заявку
-              <button class="buttons"></button>
+              <button class="buttons buttons--repair"></button>
             </label>
             <label class="title-line__checkstatus">
               Статус ремонта
-              <button class="buttons"></button>
+              <button class="buttons buttons--checkstatus"></button>
             </label>
           </div>
         </div>
 
         <div class="main-block__slider-menu-block slider-menu-block">
-          <button class="buttons" id="scroll-button-brands">Ремонтируемые бренды</button>
-          <button class="buttons" id="scroll-button-technics">Ремонтируемые устройства</button>
-          <button class="buttons">Дополнительные услуги</button>
-          <button class="buttons" id="scroll-button-table">Цены на услуги</button>
-          <button class="buttons">Адреса сервисных центров</button>
-          <button class="buttons" id="scroll-button-commercial">Специальные цены</button>
-          <button class="buttons">Отзывы</button>
+          <button class="buttons buttons--slider" id="scroll-button-brands">Ремонтируемые бренды</button>
+          <button class="buttons buttons--slider" id="scroll-button-technics">Ремонтируемые устройства</button>
+          <button class="buttons buttons--slider">Дополнительные услуги</button>
+          <button class="buttons buttons--slider" id="scroll-button-table">Цены на услуги</button>
+          <button class="buttons buttons--slider">Адреса сервисных центров</button>
+          <button class="buttons buttons--slider" id="scroll-button-commercial">Специальные цены</button>
+          <button class="buttons buttons--slider">Отзывы</button>
         </div>
 
         <section class="main-block__main-information-block main-information-block">
           <div class="main-information-block__text-and-button">
             <p class="main-information-block__text-create"></p>
-            <button class="buttons main-information-block__expand-button expand-button">
+            <button class="buttons buttons--expand main-information-block__expand-button">
               <span class="main-information-block__expand-icon expand-icon"></span>
               <span class="main-information-block__expand-text">Читать далее</span>
             </button>
@@ -163,74 +163,74 @@
           <p class="main-block__title-repair title-repair">Ремонт техники различных брендов</p>
           <div class="swiper swiper-company-block">
             <div class="swiper-wrapper main-block__menu-buttons menu-buttons menu-buttons--brands">
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--lenovo swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--acer swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--apple swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--bosch swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--hp swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--samsung swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--viewSonic swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--sony swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--lenovo swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--acer swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="swiper-slide">
+                <button class="buttons buttons--apple swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--bosch swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--hp swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--samsung swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--viewSonic swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
-                <button class="buttons swiper-slide">
+                <button class="buttons buttons--sony swiper-slide">
                   <span></span>
                   <span></span>
                 </button>
               </div>
               <div class="swiper-pagination"></div>
             </div>
-              <button class="buttons repair-block__expand-button expand-button menu-buttons--brands__expand-button">
+              <button class="buttons buttons--expand repair-block__expand-button menu-buttons--brands__expand-button">
                 <span class="menu-buttons--brands__expand-icon"></span>
                 <span class="menu-buttons--brands__expand-text">Показать все</span>
               </button>
@@ -240,42 +240,42 @@
               <p class="main-block__title-repair title-repair">Ремонт различных видов техники</p>
               <div class="swiper swiper-technics-block">
                 <div class="main-block__menu-buttons menu-buttons menu-buttons--technics swiper-wrapper">
-                  <button class="buttons swiper-slide">
+                  <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт ноутбуков</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт планшетов</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт ПК</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт мониторов</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт ноутбуков</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт планшетов</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт ПК</span>
                       <span></span>
                     </button>
-                    <button class="buttons swiper-slide">
+                    <button class="buttons buttons--technics swiper-slide">
                       <span>Ремонт мониторов</span>
                       <span></span>
                     </button>
                   </div>
                   <div class="swiper-pagination"></div>
                 </div>
-                <button class="buttons repair-block__expand-button expand-button menu-buttons--technics__expand-button">
+                <button class="buttons buttons--expand repair-block__expand-button menu-buttons--technics__expand-button">
                   <span class="menu-buttons--technics__expand-icon"></span>
                   <span class="menu-buttons--technics__expand-text">Показать все</span>
                 </button>
@@ -300,31 +300,31 @@
                     <td>Диагностика</td>
                     <td>Бесплатно</td>
                     <td>30 мин</td>
-                    <td><button class="buttons"></button></td>
+                    <td><button class="buttons buttons--buy"></button></td>
                   </tr>
                   <tr>
                     <td>Замена дисплея</td>
                     <td>1 000 ₽</td>
                     <td>30-120 мин</td>
-                    <td><button class="buttons"></button></td>
+                    <td><button class="buttons buttons--buy"></button></td>
                   </tr>
                   <tr>
                     <td>Замена полифонического динамика</td>
                     <td>1 000 ₽</td>
                     <td>30-120 мин</td>
-                    <td><button class="buttons"></button></td>
+                    <td><button class="buttons buttons--buy"></button></td>
                   </tr>
                   <tr>
                     <td>Тестирование с выдачей технического заключения</td>
                     <td>1 000 ₽</td>
                     <td>30-120 мин</td>
-                    <td><button class="buttons"></button></td>
+                    <td><button class="buttons buttons--buy"></button></td>
                   </tr>
                   <tr>
                     <td>Замена программного обеспечения</td>
                     <td>1 000 ₽</td>
                     <td>30-120 мин</td>
-                    <td><button class="buttons"></button></td>
+                    <td><button class="buttons buttons--buy"></button></td>
                   </tr>
                 </tbody>
               </table>
@@ -340,7 +340,7 @@
                 <p class="card__row">Бесплатно</p>
                 <p class="card__title card__title--title-3"></p>
                 <p class="card__row">30 мин</p>
-                <p><button class="buttons card__button-buy"></button></p>
+                <p><button class="buttons buttons--buy card__button-buy"></button></p>
               </div>
               <div class="card swiper-slide">
                 <p class="card__title card__title--title-1"></p>
@@ -349,7 +349,7 @@
                 <p class="card__row card__row--row-2"></p>
                 <p class="card__title card__title--title-3"></p>
                 <p class="card__row card__row--row-3"> </p>
-                <p><button class="buttons card__button-buy"></button></p>
+                <p><button class="buttons buttons--buy card__button-buy"></button></p>
               </div>
               <div class="card swiper-slide">
                 <p class="card__title card__title--title-1"></p>
@@ -358,7 +358,7 @@
                 <p class="card__row card__row--row-2"></p>
                 <p class="card__title card__title--title-3"></p>
                 <p class="card__row card__row--row-3"> </p>
-                <p><button class="buttons card__button-buy"></button></p>
+                <p><button class="buttons buttons--buy card__button-buy"></button></p>
               </div>
               <div class="card swiper-slide">
                 <p class="card__title card__title--title-1"></p>
@@ -367,7 +367,7 @@
                 <p class="card__row card__row--row-2"></p>
                 <p class="card__title card__title--title-3"></p>
                 <p class="card__row card__row--row-3"> </p>
-                <p><button class="buttons card__button-buy"></button></p>
+                <p><button class="buttons buttons--buy card__button-buy"></button></p>
               </div>
               <div class="card swiper-slide">
                 <p class="card__title card__title--title-1"></p>
@@ -376,7 +376,7 @@
                 <p class="card__row card__row--row-2"></p>
                 <p class="card__title card__title--title-3"></p>
                 <p class="card__row card__row--row-3"> </p>
-                <p><button class="buttons card__button-buy"></button></p>
+                <p><button class="buttons buttons--buy card__button-buy"></button></p>
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -385,7 +385,7 @@
 
             <section class="main-block__сommercial-offer commercial-offer">
               <p>Все цены указаны с учетом НДС. Стоимость ремонта указана<br> на единичную услугу. Для получения коммерческого <br> предложения на постоянное обслуживание, оставьте заявку.</p>
-              <button class="buttons">
+              <button class="buttons buttons--commercial-offer">
                 <span>Получить коммерческое предложение</span>
                 <span></span>
               </button>
