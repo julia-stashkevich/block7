@@ -101,20 +101,32 @@ svg * {
   color: #1b1c21;
   letter-spacing: -0.2px; }
 
-@media (min-width: 1440px) {
-  body {
-    margin: 0px auto;
-    max-width: 1440px; } }
+body {
+  background-color: #f8f8f8; }
 
-.burger {
+.burger-wrapper {
   display: none;
   width: 320px;
   height: 100vh;
-  overflow-y: hidden;
   position: fixed;
-  z-index: 30;
   top: 0%;
   left: 0%;
+  z-index: 30; }
+  @media (min-width: 1366px) {
+    .burger-wrapper {
+      position: sticky;
+      top: 0;
+      left: 0; } }
+  @media (min-width: 1650px) {
+    .burger-wrapper {
+      width: 360px; } }
+
+.burger {
+  display: flex;
+  position: fixed;
+  width: 320px;
+  height: 100%;
+  overflow-y: hidden;
   background-color: #ffffff;
   opacity: 1;
   box-shadow: 20px 0px 30px rgba(0, 0, 0, 0.2);
@@ -125,10 +137,11 @@ svg * {
   font-family: "TT Lakes Medium"; }
   @media (min-width: 1366px) {
     .burger {
-      z-index: 0;
       box-shadow: none;
-      overflow-y: visible;
-      position: fixed; } }
+      overflow-y: visible; } }
+  @media (min-width: 1650px) {
+    .burger {
+      width: 360px; } }
   .burger a {
     display: flex;
     flex-direction: row;
@@ -157,6 +170,9 @@ svg * {
     justify-content: space-between;
     align-items: center;
     gap: 16px; }
+    @media (min-width: 1366px) {
+      .burger__header--left-block :nth-child(1) {
+        display: none; } }
     .burger__header--left-block :nth-child(2) {
       background-image: url(./static/cps.png);
       width: 97px;
@@ -167,9 +183,6 @@ svg * {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center; }
-    @media (min-width: 1366px) {
-      .burger__header--right-block :nth-child(1) {
-        display: none; } }
   .burger__nav {
     padding: 0px;
     margin-left: -24px;
@@ -837,10 +850,6 @@ svg * {
       margin-bottom: 24px; } }
   @media (min-width: 1366px) {
     .footer-block {
-      position: relative;
-      width: calc(100vw - 320px);
-      max-width: calc(1366px - 320px);
-      left: 320px;
       padding-top: 32px;
       margin-left: 32px;
       margin-right: 32px;
@@ -917,8 +926,7 @@ svg * {
     .main-block__positioning {
       position: relative;
       width: calc(100vw - 320px);
-      max-width: calc(1440px - 320px);
-      left: 320px; } }
+      max-width: 1120px; } }
   .main-block__title-line {
     margin-left: 0px;
     margin-right: 0px;
@@ -1428,10 +1436,18 @@ svg * {
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8;
-  min-width: 320px; }
+  min-width: 320px;
+  min-height: 100vh; }
   @media (min-width: 1366px) {
     .wrapper {
-      margin: 0px auto; } }
+      display: flex;
+      justify-content: center;
+      position: relative;
+      flex-direction: row; } }
+  @media (min-width: 1650px) {
+    .wrapper {
+      margin: 0px auto;
+      max-width: 1650px; } }
   .wrapper a {
     transition: 0.2s linear; }
   .wrapper a:link,
