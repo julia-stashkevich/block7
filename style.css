@@ -127,7 +127,8 @@ svg * {
     .burger {
       z-index: 0;
       box-shadow: none;
-      overflow-y: visible; } }
+      overflow-y: visible;
+      position: fixed; } }
   .burger a {
     display: flex;
     flex-direction: row;
